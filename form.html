@@ -1,0 +1,200 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/623960086f.js" crossorigin="anonymous"></script>
+        <link href="form.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Contact form </title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900;&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+    font-family: 'poppins', sans-serif;
+    cursor: pointer;
+}
+
+.contact-bg-container{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-size: cover;
+    min-height: 101%;
+}
+
+form{
+    width: 25rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.06);
+    background-color: transparent;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, .37);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    margin-left: 20%;
+    margin-top: 1%;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    letter-spacing: 3px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    opacity: .7;
+}
+
+label{
+    font-size: 14px;
+    color: white;
+    margin-left: 10%;
+    opacity: .8;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+input{
+    width: 80%;
+    margin: 2% 10%;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.06);
+    opacity: .8;
+}
+
+button{
+    width: 40%;
+    margin: 3% auto ;
+    color: white;
+    font-size: 12px;
+    opacity: .7;
+    background: rgba(255, 255, 255, 0.06);
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, .2);
+    box-shadow: 3px 3px 5px rgba(31, 38, 135, .37);
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+}
+
+a{
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10% 11%;
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    letter-spacing: 3px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    opacity: .7;
+    padding-top: 10%;
+}
+
+p{
+    width: 80%;
+    margin: 2% 10%;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.06);
+    opacity: .9;
+}
+i{
+    padding-right: 5%;
+    color: rgb(120, 120, 134);
+}
+        </style>
+    </head>
+    <body>
+        <div class="contact-bg-container d-flex flex-row justify-content-center pt-5 pb-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div  class="">
+                            <form action="p-5">
+                                <h2 class="heading">
+                                    Contact Form
+                                </h2>
+                                <div class="inputBox">
+                                    <label> Name</label>
+                                    <input type="text" required>
+                                    <i></i>
+                                </div>
+                                
+                                <div class="inputBox">
+                                    <label> Mail</label>
+                                    <input type="text" required>
+                                    <i></i>
+                                </div>
+                                
+                                <div class="inputBox">
+                                    <label> Address </label>
+                                    <input type="text" required>
+                                    <i></i>
+                                </div>
+                                
+                                <div class="inputBox">
+                                    <label> Phone No </label>
+                                    <input type="text" required>
+                                    <i></i>
+                                </div>
+                                
+                                <button> Submit </button>
+                                
+                                <div class="links">
+                                    <a href="#">Forgot Password?</a>
+                                    <a href="#">SignUp</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div>
+                            <form>
+                                <div>
+                                    <h1> Address </h1>
+                                    <p> <i class="fa-solid fa-location-dot"></i> Mada center 8th floor, 379 Hudson str <br/> 
+                                    New York, NY 10018 US.</p>
+                                </div>
+    
+                                <div>
+                                    <h1> General Support </h1>
+                                    <p> <i class="fa-solid fa-envelope"></i> Contact27/7@gmail.com</p>
+                                </div>
+    
+                                <div>
+                                    <h1> Lets talk </h1>
+                                    <p> <i class="fa-solid fa-phone-volume"></i> 1800-453-678</p>
+                                </div>
+                            </form>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+    
+    </body>
+</html>
